@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: url("https://assets.nflxext.com/ffe/siteui/vlv3/04ef06cc-5f81-4a8e-8db0-6430ba4af286/web/IN-en-20250224-TRIFECTA-perspective_3a9c67b5-1d1d-49be-8499-d179f6389935_medium.jpg")
+          no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        display: inline-block;
+        background-color: black;
+        opacity: 0.7;
+        padding: 20px;
+        height: 500px;
+        width: 400px;
+      }
+      h1 {
+        color: white;
+        text-align: start;
+        /* font-size: large; */
+      }
+      form {
+        display: inline-block;
+        padding: 20px;
+      }
+      .box {
+        background-color: gray;
+        height: 40px;
+        width: 300px;
+        opacity: 0.7;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      input::placeholder {
+        color: white;
+      }
+      .sign-in {
+        margin: 10px;
+        background-color: red;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+      p {
+        color: white;
+        text-align: center;
+        margin: 1px;
+      }
+
+      .code {
+        margin: 10px;
+        background-color: rgba(128, 128, 128, 0.4);
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 1rem;
+        color: white;
+      }
+      a {
+        text-align: center;
+      }
+      .forgot {
+        margin: 120px;
+        color: white;
+        text-align: center;
+      }
+      span {
+        display: inline-block;
+        color: white;
+        padding: 5px;
+      }
+
+      .checkbox {
+        text-align: start;
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign In</h1>
+      <form action="">
+        <input class="box" type="text" placeholder="Email or mobile number" />
+        <input class="box" type="password" placeholder="password" />
+        <button class="sign-in">Sign In</button>
+        <p>OR</p>
+        <button class="code">Use a sign-in-code</button>
+        <a class="forgot" href="">Forgot password?</a>
+        <input type="checkbox" /> <span> Remember me?</span>
+        <br>
+        <span>New to Netflix?</span><a style="text-decoration: none; color: white;"  href="">Sign up now.</a>
+        <br>
+        <span>
+          This page is protected by Google reCAPTCHA to ensure you're not a bot.
+        </span>
+        <a style="color: skyblue;"  href="">Learn more.</a>
+      </form>
+    </div>
+  </body>
+</html>
